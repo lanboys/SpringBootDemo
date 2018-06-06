@@ -1,4 +1,4 @@
-package com.bing.lan.springboot._03;
+package com.bing.lan.springboot._03_param;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -18,5 +18,4 @@ public class ParamController {
     public String param(@RequestParam(value = "id", required = true,defaultValue = "111") Integer myId) {
         return "Id: " + myId;
     }
-    
 }

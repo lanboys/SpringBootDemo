@@ -1,4 +1,4 @@
-package com.bing.lan.springboot._01;
+package com.bing.lan.springboot._01_hello;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
