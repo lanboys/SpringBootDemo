@@ -1,0 +1,15 @@
+server:
+  port: 8084
+  servlet:
+    context-path: /dev
+
+name: lanboys
+age: 16
+
+boyInfo: "name: ${name} age: ${age}"
+
+
+girl:
+  cupSize: D
+  age: 15
+
