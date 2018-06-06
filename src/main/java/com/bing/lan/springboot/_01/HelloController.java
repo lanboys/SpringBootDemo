@@ -1,4 +1,4 @@
-package com.bing.lan.springboot;
+package com.bing.lan.springboot._01;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
+@RequestMapping("/hello")
 public class HelloController {
 
     @Value("${name}")
@@ -25,7 +26,7 @@ public class HelloController {
     @Autowired
     private GirlProperties girlProperties;
 
-    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    @RequestMapping(value = {"/hello", "/hi"}, method = RequestMethod.GET)
     public String sayHello() {
 
         //return "Hello SpringBoot";

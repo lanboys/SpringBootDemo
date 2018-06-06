@@ -1,4 +1,4 @@
-package com.bing.lan.springboot;
+package com.bing.lan.springboot._01;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
